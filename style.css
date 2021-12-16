@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800;900&display=swap');
+* {
+    
+    padding: 0;
+    margin: 0;
+}
+img{
+    display: block;
+}
+header{
+    height: 50px;
+    width: 100vw;
+    background: rgba(245, 245, 246, 1);
+    display: flex;
+    margin-bottom: 23px;
+}
+header .left,
+header .rigth {
+    height: 100%;
+    width: 22.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header .midle {
+    height: 100%;
+    width: 54%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#login {
+    width: 58px;
+    line-height: 33px;
+    background: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 5px;
+}
+header .midle .menuItem {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    color: #959BA4;
+    
+}
+header .midle .menuItem:first-child{
+    color: #000000;
+
+}
+main{
+    width: 622px;
+    margin: 0 auto;
+   
+}
+main h1 {
+    margin: 33px 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+main .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+main .cards .card {
+    width: 259px;
+}
+main .cards .card h5 {
+    line-height: 28px;
+    width: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #9f9f9f;
+}
+main .cards .card .buttons {
+    width: 100%;
+    height: 30px;
+    display: flex;
+}
+main .cards .card .buttons .button {
+    width: 25%;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid rgba(229, 229, 229, 1);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #c6c6c6;
+}
+main .cards .card .buttons .button:first-child {
+    border-radius: 7px 0 0 7px;
+}
+main .cards .card .buttons .button:last-child{
+    border-radius: 0 7px 7px 0;
+}
+main .cards .card .buttons .select-button {
+    background: rgba(131, 58, 224, 1);
+    color: rgb(255, 255, 255);
+}
+main .cards .card .input {
+    margin-top: 20px;
+    width: 100%;
+    min-height: 102px;
+    border: 1px solid rgba(229, 229, 229, 1);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+main .cards .card .input input {
+    width: 231px;
+    border: none;
+    outline: none;
+    margin: 11px 14px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 38px;
+}
+main .cards .card .input #hint {
+    margin: 5px 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 28px;
+    color: #C6C6C6;
+
+
+}

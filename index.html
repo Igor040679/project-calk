@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <img src="img/logo.svg" alt="logo">
+        </div>
+        <div class="midle">
+            <div class="menuItem">БАНК</div>
+            <div class="menuItem">БИЗНЕС</div>
+            <div class="menuItem">ИНВЕСТИЦИИ</div>
+            <div class="menuItem">СТРАХОВАНИЕ</div>
+            <div class="menuItem">МОБАЙЛ</div>
+            <div class="menuItem">ПУТЕШЕСТВИЯ</div>
+            <div class="menuItem">РАЗВЛЕЧЕНИЯ</div>
+        </div>
+        <div class="rigth">
+            <div id="login">ВОЙТИ</div>
+        </div>
+    </header>
+    <main>
+        <h1>Конвертер валют онлайн</h1>
+        <div class="cards">
+            <div class="card">
+                <h5>У меня есть </h5>
+                <div class="buttons">
+                    <div id="leftRub" class="button select-button">RUB</div>
+                    <div id="leftUsd" class="button">USD</div>
+                    <div id="leftEur" class="button">EUR</div>
+                    <div id="leftGbp" class="button">GBP</div>
+                </div>
+                <div class="input">
+                    <input id="leftInp" type="input">
+                    <div id="lHint"> 1 RUB =</div>
+                </div>
+            </div>
+            <div class="card">
+                <h5>Хочу приобрести </h5>
+                <div class="buttons">
+                    <div id="rigthRub" class="button select-button">RUB</div>
+                    <div id="rigthUsd" class="button">USD</div>
+                    <div id="rigthEur" class="button">EUR</div>
+                    <div id="rigthGbp" class="button">GBP</div>
+                </div>
+                <div class="input">
+                    <input id="rigthInp" type="input">
+                    <div id="rHint"> 1 USD =</div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="controller.js"></script>
+    <script src="model.js"></script>
+    <script src="vue.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
